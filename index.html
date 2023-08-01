@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+
+</head>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<body>
+      <div id="header">
+        <div id="container">
+            <nav>
+                <div class="left">Nisha's Portfolio</div>
+                <!-- <img src="" class=""> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#work">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                                     
+                </ul>
+                                
+
+            </nav>
+            <div class="header-text">
+                <div>Hi, <br> My name is <span>Nisha</span> Salunkhe.</div>
+                <div>And I'm a passionate </div>
+                <span id="element"></span>
+                
+            </div>
+            
+        </div>
+     </div>
+
+     <!-- ------About-------------- -->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <h1 class="subtitle">About Me</h1>
+                <p>A Front-End Developer with entry-level experience specializing in web development, user interface design, HTML, and ReactJS.<br> Adept at identifying opportunities to enhance front-end design and improve the user experience.</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onClick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onClick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onClick="opentab('education')">Education</p>
+
+            </div>
+            <div id="skills" class="tab-content active-tab">
+                <ul>
+                    <li><span>HTML/CSS</span><br>Create static web pages and web applications; Style sheet for presentation of documents written in a markup language.</li>
+                    <li><span>Javascript</span><br>Make web pages interactive.</li>
+                    <li><span>ReactJS (Basics)</span><br>Build interactive user interfaces and web applications with less code </li>
+                    <li><span>Python (Basics)</span><br>Develop websites and software, task automation, data analysis, and data visualization.</li>
+                    
+                </ul>
+            </div>
+            <div id="experience" class="tab-content">
+                <ul>
+                    <li><span>Fresher</span></li>                   
+                </ul>
+            </div>
+            <div id="education" class="tab-content">
+                <ul>
+                    <li><span>2019-2022</span><br>Savitribai Phule Pune University<br>Bachelor's Of Computer Science<br>CGPA : 9.39<br>Percentage : 90.09%</li>
+                    <li><span>2019</span><br>HSC<br>Science(PCMB)<br>Percentage : 67.23%</li>
+                    <li><span>2017</span><br>SSC<br>Percentage : 89.20%</li>
+                   
+                </ul>
+            </div>            
+        </div>
+        <!-- -----Services------>
+        <div id="services">
+            <div class="container">
+               <h1 class="subtitle">My Services</h1> 
+               <div class="services-list">
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reprehenderit excepturi incidunt aut. Deserunt, possimus.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>UI/UX</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reprehenderit excepturi incidunt aut. Deserunt, possimus.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reprehenderit excepturi incidunt aut. Deserunt, possimus.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+               </div>
+            </div>
+        </div>
+        </div>
+     </div>
+  <!-- ---------------------------------work---------------------------- -->
+     <div id="work">
+        <div class="container">
+           <h1 class="subtitle">My Work</h1> 
+           <div class="work-list">
+            <div >
+                <div class="layer">
+                <h2>Aromas</h2>
+                <p>The Food searching App.</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i>> </i></a>
+            </div>
+            </div>
+            <div>
+                <div class="layer">
+                <h2>Aromas</h2>
+                <p>The Food searching App.</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i>> </i></a>   
+            </div>
+            </div>
+            <div>
+                <div class="layer">
+                <h2>Aromas</h2>
+                <p>The Food searching App.</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i>> </i></a>
+                
+            </div>
+
+           </div>
+        </div>
+    </div>
+     <a href="#" class="btn">See More</a>
+    </div>
+ </div>
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>                                                               
+                <p><i class="fas fa-paper-plane"></i>nishasalunkhe64@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>9834342334</p>
+                <div class="social-icons">
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="Nisha_R.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"></div>
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class= "btn btn2">Submit</button>
+
+            </form>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Nisha.  <i class="fas fa-heart"></i></p>
+    </div>
+ </div>
+
+   
+     <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-content");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+     </script>
+     <script>
+        var sidemenu=docment.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right= "0";
+        }
+        function closemenu(){
+            sidemenu.style.right= "-200px";
+        }
+     </script>  
+     <script>
+        var typed = new Typed('#element', {
+          strings: ['Frontend Developer.', 'Web Developer.'],
+          typeSpeed: 50,
+        });
+      </script> 
+</body>
+</html>
